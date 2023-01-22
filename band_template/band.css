@@ -208,3 +208,48 @@ li {
     padding-top: 6rem;
     padding-bottom: 8rem;
 }
+
+/* Tickets section*/
+.card{
+  margin-top: 3rem;
+  margin-left: 3rem;
+  position: relative;
+  width: 300px;
+  height: 395px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  background: #fff;
+ 
+}
+.imgBox_1{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-30px);
+}
+.image{
+  width: 100%;
+}
+.imgBox_1 h3{
+  margin-top: 15px;
+  color: var(--black);
+}
+.imgBox_1 .para{
+  margin-top: 15px;
+  color: var(--para);
+  justify-content: left;
+  
+}
+.imgBox_1 p{
+  margin-top: 15px;
+  color: var(--black);
+}
+.content{
+  margin-top: 30px;
+  padding-left: 13px;
+  transform: translateY(-20px);
+}
+button{
+  padding: 10px 20px;
+  transform: translateY(-0px);
+}
